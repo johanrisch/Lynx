@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lynx.iml" filepath="$PROJECT_DIR$/Lynx.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/lynx/lynx.iml" filepath="$PROJECT_DIR$/lynx/lynx.iml" />
       <module fileurl="file://$PROJECT_DIR$/lynx-android-gson/lynx-android-gson.iml" filepath="$PROJECT_DIR$/lynx-android-gson/lynx-android-gson.iml" />
       <module fileurl="file://$PROJECT_DIR$/lynx-android-jackson/lynx-android-jackson.iml" filepath="$PROJECT_DIR$/lynx-android-jackson/lynx-android-jackson.iml" />

@@ -10,7 +10,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/lib" />
             <option value="$PROJECT_DIR$/lynx" />
             <option value="$PROJECT_DIR$/lynx-android-gson" />
             <option value="$PROJECT_DIR$/lynx-android-jackson" />
@@ -20,7 +19,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/lib" />
             <option value="$PROJECT_DIR$/lynx" />
             <option value="$PROJECT_DIR$/lynx-android-gson" />
             <option value="$PROJECT_DIR$/lynx-android-jackson" />
