@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'com.google.code.gson:gson:2.5'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.+'
+    testCompile 'ch.dissem.jabit:jabit-cryptography-bouncy:1.0.1'
+}
