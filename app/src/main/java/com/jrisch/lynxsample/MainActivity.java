@@ -10,7 +10,7 @@ import butterknife.OnClick;
 import com.jrisch.lynx.Lynx;
 import com.jrisch.lynx.LynxDiskStorage;
 import com.jrisch.lynx_android.LynxObjectMapper;
-import com.jrisch.lynx_android.cipher.ILynxBouncyCastleProvider;
+import com.jrisch.lynx_android.cipher.LynxBouncyCastleProvider;
 import com.jrisch.lynx.LynxCipherHandler;
 import com.jrisch.lynx_android.cipher.LynxDefaultPasswordSupplier;
 import com.jrisch.lynx_android.storage.LynxExternalStorageInfo;
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         this.secureLynxStorage = Lynx.create(new LynxExternalStorageInfo(this), String.class, String.class)
                                      .withMapper(new LynxObjectMapper())
-                                     .withCipherHandler(new LynxCipherHandler(new LynxDefaultPasswordSupplier(this), new ILynxBouncyCastleProvider(), new ILynxBase64Impl()))
+                                     .withCipherHandler(new LynxCipherHandler(new LynxDefaultPasswordSupplier(this), new LynxBouncyCastleProvider(), new LynxBase64Impl()))
                                      .named("testSecureStorage")
                                      .build();
         ButterKnife.bind(this);

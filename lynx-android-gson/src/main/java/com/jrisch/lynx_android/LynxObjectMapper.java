@@ -10,11 +10,7 @@ public class LynxObjectMapper implements ILynxObjectMapper {
 
     private Gson gson;
 
-    /**
-     *
-     * @param gson
-     */
-    public LynxObjectMapper(Gson gson) {
+    LynxObjectMapper(Gson gson) {
         this.gson = gson;
     }
 

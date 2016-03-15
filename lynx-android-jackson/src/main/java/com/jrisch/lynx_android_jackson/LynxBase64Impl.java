@@ -1,4 +1,4 @@
-package com.jrisch.lynxsample;
+package com.jrisch.lynx_android_jackson;
 
 import android.util.Base64;
 import com.jrisch.lynx.ILynxBase64;
@@ -7,7 +7,7 @@ import java.io.UnsupportedEncodingException;
 /**
  * TODO - add description
  */
-public class ILynxBase64Impl implements ILynxBase64 {
+public class LynxBase64Impl implements ILynxBase64 {
 
     @Override
     public byte[] encode(byte[] in) {

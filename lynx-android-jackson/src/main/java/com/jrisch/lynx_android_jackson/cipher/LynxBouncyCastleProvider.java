@@ -1,12 +1,12 @@
-package com.jrisch.lynx_android.cipher;
+package com.jrisch.lynx_android_jackson.cipher;
 
 import com.jrisch.lynx.ILynxKeySupplierHandler;
 import java.security.Security;
 
 /**
- * TODO - add description
+ * Default implementation of {@link ILynxKeySupplierHandler} which uses spongycastle to create the keys.
  */
-public class ILynxBouncyCastleProvider implements ILynxKeySupplierHandler {
+public class LynxBouncyCastleProvider implements ILynxKeySupplierHandler {
     static {
         Security.insertProviderAt(new org.spongycastle.jce.provider.BouncyCastleProvider(), 1);
 
